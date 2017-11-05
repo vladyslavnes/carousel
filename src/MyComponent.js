@@ -7,15 +7,15 @@ export default class MyComponent extends Component {
         return (
             <Carousel>
                 <div>
-                    <img src={require('./assets/1.jpg')} />
+                    <img style={{width: '45%'}} src={require('./assets/1.jpg')} alt="Hill of fame" />
                     <p className="legend">Hill of fame</p>
                 </div>
                 <div>
-                    <img src={require('./assets/2.jpg')} />
+                    <img style={{width: '45%'}} src={require('./assets/2.jpg')} alt="Castle of XVIII century" />
                     <p className="legend">Castle of XVIII century</p>
                 </div>
                 <div>
-                    <img src={require('./assets/3.jpg')} />
+                    <img style={{width: '45%'}} src={require('./assets/3.jpg')} alt="Somewhere on Khreschatyk" />
                     <p className="legend">Somewhere on Khreschatyk</p>
                 </div>
             </Carousel>
