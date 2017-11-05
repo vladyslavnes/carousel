@@ -7,30 +7,18 @@ export default class MyComponent extends Component {
         return (
             <Carousel>
                 <div>
-                    <img src="assets/1.jpeg" />
-                    <p className="legend">Legend 1</p>
+                    <img src={require('./assets/1.jpg')} />
+                    <p className="legend">Hill of fame</p>
                 </div>
                 <div>
-                    <img src="assets/2.jpeg" />
-                    <p className="legend">Legend 2</p>
+                    <img src={require('./assets/2.jpg')} />
+                    <p className="legend">Castle of XVIII century</p>
                 </div>
                 <div>
-                    <img src="assets/3.jpeg" />
-                    <p className="legend">Legend 3</p>
+                    <img src={require('./assets/3.jpg')} />
+                    <p className="legend">Somewhere on Khreschatyk</p>
                 </div>
             </Carousel>
         );
     }
 };
-
-// export default class MyComponent extends Component {
-//   constructor(props) {
-//     super(props);
-//
-//   render() {
-//     return (
-//       <div>
-//       </div>
-//     )
-//   }
-// }
